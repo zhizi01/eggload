@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "eggload",
+  "version": "${version}",
+  "name": "eggload",
+  "description": "珍珠加载器",
+  "authors": [
+    "青山智子"
+  ],
+  "contact": {
+    "website": "https://github.com/zhizi01/mceggload",
+    "repo": "https://github.com/zhizi01/mceggload"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/image/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.zhizi.eggload.Eggload"
+    ]
+  },
+  "mixins": [
+    "eggload.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

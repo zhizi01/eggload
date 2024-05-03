@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.zhizi.eggload.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ZhenZhuJiaZaiMixin",
+    "GaBengCuiShenCengYanMixin",
+    "NiuPiXianZuZhiMixin",
+    "PlayerQuitMixin",
+    "PlayerJoinMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
